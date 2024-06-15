@@ -1,0 +1,2 @@
+(this["webpackJsonpproject-o"]=this["webpackJsonpproject-o"]||[]).push([[0],{13:function(e,t,c){},15:function(e,t,c){"use strict";c.r(t);c(4);var n=c(1),o=c.n(n),r=c(3),s=c.n(r),i=(c(13),c(0));var a=function(){return Object(i.jsx)("div",{className:"App",children:"Hello"})};s.a.createRoot(document.getElementById("root")).render(Object(i.jsx)(o.a.StrictMode,{children:Object(i.jsx)(a,{})}))},4:function(e,t,c){}},[[15,1,2]]]);
+//# sourceMappingURL=main.524bed8a.chunk.js.map
