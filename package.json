@@ -2,7 +2,7 @@
   "name": "project-o",
   "version": "1.0.0",
   "description": "Project O UI v1",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
