@@ -1,2 +1,0 @@
-(this["webpackJsonpproject-o"]=this["webpackJsonpproject-o"]||[]).push([[0],{13:function(e,t,c){},15:function(e,t,c){"use strict";c.r(t);c(4),c(1);var n=c(3),o=(c(13),c(0));var r=function(){return Object(o.jsx)("div",{className:"App",children:Object(o.jsx)("h1",{children:"Hello, React with Webpack!"})})};const s=document.getElementById("root");Object(n.createRoot)(s).render(Object(o.jsx)(r,{}))},4:function(e,t,c){}},[[15,1,2]]]);
-//# sourceMappingURL=main.379bbfda.chunk.js.map

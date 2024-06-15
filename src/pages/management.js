@@ -1,7 +1,7 @@
 import React from 'react'
 
+import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
-
 
 
 export default function Management() {
@@ -14,15 +14,42 @@ export default function Management() {
             </div>
             <Divider style={{borderWidth: '0.5px', borderColor: "black"}}/>
             <div style={{textAlign: 'left', height: "25vh", position: 'relative'}}>
-                <h3 style={{position: 'absolute', bottom: 0, marginLeft: '1em'}}>Crie um novo grupo</h3>
+                <Button
+                    variant="text"
+                    style={{
+                        position: 'absolute',
+                        bottom: 0,
+                        marginLeft: '1em',
+                        color: "black",
+                }}>
+                    <h3>Crie um novo grupo</h3>
+                </Button>
             </div>
             <Divider style={{borderWidth: '0.5px', borderColor: "black"}}/>
             <div style={{textAlign: 'left', height: "25vh", position: 'relative'}}>
-                <h3 style={{position: 'absolute', bottom: 0, marginLeft: '1em'}}>Participe de um grupo existente</h3>
+                <Button
+                    variant="text"
+                    style={{
+                        position: 'absolute',
+                        bottom: 0,
+                        marginLeft: '1em',
+                        color: "black",
+                }}>
+                    <h3>Participe de um grupo existente</h3>
+                </Button>
             </div>
             <Divider style={{borderWidth: '0.5px', borderColor: "black"}}/>
             <div style={{textAlign: 'left', height: "25vh", position: 'relative'}}>
-                <h3 style={{position: 'absolute', bottom: 0, marginLeft: '1em'}}>Meus grupos</h3>
+                <Button
+                    variant="text"
+                    style={{
+                        position: 'absolute',
+                        bottom: 0,
+                        marginLeft: '1em',
+                        color: "black",
+                }}>
+                    <h3>Meus grupos</h3>
+                </Button>
             </div>
         </div>
     );

@@ -1,4 +1,5 @@
-import Management from './pages/management.tsx';
+import Management from './pages/management';
+import NewGroup from './pages/newGroup';
 
 function App() {
   return (
