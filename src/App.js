@@ -4,7 +4,7 @@ import NewGroup from './pages/newGroup';
 function App() {
   return (
     <div className="App">
-      <Management/>
+      <NewGroup/>
     </div>
   );
 }
