@@ -1,10 +1,9 @@
-import './App.css';
+import Management from './pages/management.tsx';
 
 function App() {
   return (
     <div className="App">
-      <h1>Piglet</h1>
-
+      <Management/>
     </div>
   );
 }
