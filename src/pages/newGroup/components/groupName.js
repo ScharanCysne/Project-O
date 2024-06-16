@@ -1,20 +1,27 @@
 import React from 'react'
-import TextField from '@mui/material/TextField';
 
 export default function GroupName() {
     return (
         <div style={{textAlign: 'center', height: "25vh", position: 'relative', backgroundColor: "#7B6DE8"}}>
-            <TextField
+            <p
                 style={{
                     position: 'absolute',
-                    bottom: 0,
-                    left: 0,
-                    width: "100%"
+                    top: "7em",
+                    left: "20%",
+                    textAlign: "center",
+                    color: "black",
+                    width: "40%",
+                    backgroundColor: "rgba(255, 255, 255, 0.7)",
+                    borderRadius: "10px",
+                    padding: "5%",
+                    paddingLeft: "10%",
+                    paddingRight: "10%",
+                    fontWeight: "bold"
+
                 }}
-                id="standard-basic"
-                label="Nome"
-                variant="standard"
-            />
+            >
+                Nome
+            </p>
         </div>
     );
 }

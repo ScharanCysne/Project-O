@@ -7,9 +7,9 @@ import LinearProgress from '@mui/material/LinearProgress';
 
 export default function Member(props) {
     return (
-        <div style={{position: "relative", top: "25vh"}}>
+        <div>
             <Grid container spacing={2}>
-                <Grid item xs={8} style={{textAlign: "left"}}>
+                <Grid item xs={6} style={{textAlign: "left"}}>
                     <Stack direction="row" style={{width: "100%"}} alignItems="center">
                         <Avatar
                             alt={props.name}
@@ -17,12 +17,13 @@ export default function Member(props) {
                             sx={{ width: 36, height: 36 }}
                             style={{margin: "1em"}}
                         />
-                        <p style={{margin: "1em", fontSize: "0.7em"}}>{props.name}</p>
+                        <p style={{margin: "1em", fontSize: "1em"}}>{props.name}</p>
                     </Stack>
                 </Grid>
-                <Grid item xs={4} style={{textAlign: "right", alignItems: "center"}}>
-                    <div>
-                        <p style={{margin: "1em", fontSize: "0.7em"}}>{props.status}</p>
+                <Grid item xs={6} style={{textAlign: "right", alignItems: "center"}}>
+                    <div style={{margin: props.amount ? "1em": "2em", marginRight: "2em"}}>
+                        <p style={{fontSize: "0.7em"}}>{props.status}</p>
+                        <p style={{fontSize: "1em"}}>{props.amount}</p>
                     </div>
                 </Grid>
             </Grid>

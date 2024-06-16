@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import dayjs from 'dayjs';
 import TextField from '@mui/material/TextField';
 import Stack from '@mui/material/Stack';
@@ -8,6 +8,8 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
 
 export default function DateSetting(props) {
+    const [value, setValue] = useState(dayjs('2024-01-01'))
+
     return (
         <div style={{marginBottom: "2em", marginTop: "2em"}}>
             <Stack direction="row" >

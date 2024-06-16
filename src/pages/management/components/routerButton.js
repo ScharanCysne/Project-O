@@ -8,7 +8,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 export default function RouterButton(props) {
     return (
         <div>
-            <div style={{textAlign: 'left', height: "21vh", position: 'relative'}}>
+            <div style={{textAlign: 'left', height: "20vh", position: 'relative'}}>
                 <Button
                     href={props.href}
                     variant="text"
@@ -19,7 +19,7 @@ export default function RouterButton(props) {
                         color: "black",
                 }}>
                     <Stack direction="row" alignItems="center">
-                        <h3>{props.title}</h3>
+                        <p style={{fontWeight: "bold"}}>{props.title}</p>
                         <KeyboardArrowRightIcon style={{margin: "0.5em"}}/>
                     </Stack>
                 </Button>

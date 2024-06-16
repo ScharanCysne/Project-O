@@ -46,7 +46,7 @@ export default function ConfirmationModal(props) {
                     </Grid>
                 </div>
                 <div>
-                    <p style={{marginTop: "1em"}}>Pessoas</p>
+                    <p style={{marginTop: "1em"}}>Participantes</p>
                     <Divider />
                     {
                         props.rows.map((row) => (
