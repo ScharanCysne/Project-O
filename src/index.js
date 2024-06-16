@@ -1,4 +1,3 @@
-import "@fontsource/roboto";
 import './index.css';
 
 import React from 'react';
