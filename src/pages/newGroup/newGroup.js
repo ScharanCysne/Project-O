@@ -24,7 +24,7 @@ export default function NewGroup() {
                 <DatePicker title="Data de Recebimento"/>
             </div>
             <div style={{textAlign: "center", margin: "1em"}}>
-                <Button variant="contained">
+                <Button href="current" variant="contained">
                     Criar
                 </Button>
             </div>
