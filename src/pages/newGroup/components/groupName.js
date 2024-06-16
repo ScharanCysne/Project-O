@@ -3,7 +3,7 @@ import TextField from '@mui/material/TextField';
 
 export default function GroupName() {
     return (
-        <div style={{textAlign: 'center', height: "25vh", position: 'relative', backgroundColor: "#F2CDCB"}}>
+        <div style={{textAlign: 'center', height: "25vh", position: 'relative', backgroundColor: "#F49FCD"}}>
             <TextField
                 style={{
                     position: 'absolute',

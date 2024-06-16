@@ -1,37 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-import { Button, Divider } from '@mui/material';
-import Box from '@mui/material/Box';
-import Modal from '@mui/material/Modal';
+import { Button } from '@mui/material';
 
 import GroupName from './components/groupName';
 import GroupAmount from './components/groupAmount';
 import InviteMembers from './components/inviteMembers';
 import Dates from './components/Dates';
-
-const style = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: 400,
-    bgcolor: 'background.paper',
-    boxShadow: 1,
-    borderRadius: "5px",
-    pt: 2,
-    px: 4,
-    pb: 3,
-};
-
+import ConfirmationModal from './components/ConfirmationModal';
 
 export default function NewGroup() {
-    const [open, setOpen] = React.useState(false);
-  const handleOpen = () => {
-    setOpen(true);
-  };
-  const handleClose = () => {
-    setOpen(false);
-  };
+    const [open, setOpen] = useState(false);
+    const [rows, setRows] = useState([
+        {name: "Beatriz", avatar_path: "/static/1.jpeg"},
+        {name: "Carol", avatar_path: "/static/2.jpeg"},
+        {name: "Mel", avatar_path: "/static/3.jpeg"},
+        {name: "Janine", avatar_path: "/static/4.jpeg"},
+        {name: "Laura", avatar_path: "/static/5.jpeg"},
+    ]);
+    const handleOpen = () => {
+        setOpen(true);
+    };
+    const handleClose = () => {
+        setOpen(false);
+    };
 
     return (
         <div>
@@ -50,28 +41,7 @@ export default function NewGroup() {
                     Criar
                 </Button>
             </div>
-            <Modal
-                open={open}
-                onClose={handleClose}
-                aria-labelledby="parent-modal-title"
-                aria-describedby="parent-modal-description"
-                >
-                <Box sx={{ ...style, width: "60%" }}>
-                    <p>Valores</p>
-                    <Divider />
-                    <p>Pessoas</p>
-                    <Divider />
-                    <p>Datas</p>
-                    <Divider />
-                    <Button
-                        style={{backgroundColor: "#355573", marginTop: "2em"}}
-                        href="/current"
-                        variant="contained"
-                    >
-                        Confirmar
-                    </Button>
-                </Box>
-            </Modal>
+            <ConfirmationModal open={open} handleClose={handleClose} rows={rows} />
         </div>
     );
 }

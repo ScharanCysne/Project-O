@@ -17,7 +17,7 @@ export default function InviteMembers() {
         {name: "Mel", avatar_path: "/static/3.jpeg"},
         {name: "Janine", avatar_path: "/static/4.jpeg"},
         {name: "Laura", avatar_path: "/static/5.jpeg"},
-        {name: "+ invite", avatar_path: "/static/5.jpeg"}
+        {name: "+ convidar amigos", avatar_path: ""}
     ]);
 
     return (
@@ -41,9 +41,11 @@ export default function InviteMembers() {
                     </Stack>
                 </Grid>
             </Grid>
-                {rows.map((row) => (
-                    <Member name={row.name} avatar_path={row.avatar_path}/>
-                ))}
+                {
+                    rows.map((row) => (
+                        <Member name={row.name} avatar_path={row.avatar_path}/>
+                    ))
+                }
         </div>
     );
 }

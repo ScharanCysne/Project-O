@@ -9,8 +9,6 @@ const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   textAlign: 'left',
   color: theme.palette.text.secondary,
-  height: 60,
-  lineHeight: '60px',
   alignItems: "middle"
 }));
 
@@ -20,14 +18,14 @@ export default function Member(props) {
   return (
     <ThemeProvider theme={lightTheme}>
         <Item key={1} elevation={1}>
-            <Stack direction="row" style={{margin: "10px", width: "100%", alignItems: "center"}}>
+            <Stack direction="row" style={{margin: "10px", width: "100%"}} alignItems="center">
                 <Avatar
                     alt={props.name}
                     src={props.avatar_path}
                     sx={{ width: 36, height: 36 }}
-                    style={{marginRight: "1em"}}
+                    style={{margin: "0.5em"}}
                 />
-                <p>{props.name}</p>
+                <p style={{margin: "0.5em"}}>{props.name}</p>
             </Stack>
         </Item>
     </ThemeProvider>
