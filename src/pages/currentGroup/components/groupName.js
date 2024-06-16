@@ -13,7 +13,7 @@ export default function GroupName() {
             <p
                 style={{
                     position: 'absolute',
-                    top: "7em",
+                    top: "8em",
                     left: "20%",
                     textAlign: "center",
                     color: "black",
