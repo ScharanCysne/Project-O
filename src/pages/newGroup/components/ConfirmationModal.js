@@ -36,8 +36,8 @@ export default function ConfirmationModal(props) {
                     <Divider />
                     <Grid container spacing={2}>
                         <Grid item xs={6} style={{textAlign: "left"}}>
-                            <p style={{fontSize: "0.7em"}}>Valor por Parcela:</p>
-                            <p style={{fontSize: "0.7em"}}>Valor Total:</p>
+                            <p style={{fontSize: "0.7em"}}>Valor por parcela:</p>
+                            <p style={{fontSize: "0.7em"}}>Valor total a receber mensalmente:</p>
                         </Grid>
                         <Grid item xs={6} style={{textAlign: "right"}}>
                             <p style={{fontSize: "0.7em"}}>R$ 200,00</p>
@@ -67,8 +67,8 @@ export default function ConfirmationModal(props) {
                     <Divider />
                     <Grid container spacing={2}>
                         <Grid item xs={8} style={{textAlign: "left"}}>
-                            <p style={{fontSize: "0.7em"}}>Data de Recebimento:</p>
-                            <p style={{fontSize: "0.7em"}}>Data de Pagamento:</p>
+                            <p style={{fontSize: "0.7em"}}>Data de recebimento:</p>
+                            <p style={{fontSize: "0.7em"}}>Data de pagamento:</p>
                         </Grid>
                         <Grid item xs={4} style={{textAlign: "right"}}>
                             <p style={{fontSize: "0.7em"}}>01/08/2024</p>
@@ -78,7 +78,7 @@ export default function ConfirmationModal(props) {
                 </div>
                 <div style={{textAlign: "center"}}>
                     <Button
-                        style={{backgroundColor: "#355573", marginTop: "2em"}}
+                        style={{backgroundColor: "#355573", marginTop: "2em", fontSize: "0.7em"}}
                         href="/current"
                         variant="contained"
                         >

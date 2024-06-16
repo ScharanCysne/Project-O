@@ -34,7 +34,7 @@ export default function NewGroup() {
             <Dates/>
             <div style={{textAlign: "center"}}>
                 <Button
-                    style={{backgroundColor: "#355573", marginBottom: "2em"}}
+                    style={{backgroundColor: "#355573", marginBottom: "2em", fontSize: "0.7em"}}
                     variant="contained"
                     onClick={handleOpen}
                 >

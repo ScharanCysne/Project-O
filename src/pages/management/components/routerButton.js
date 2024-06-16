@@ -1,14 +1,14 @@
 import React from 'react'
+
 import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
+
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 export default function RouterButton(props) {
     return (
         <div>
-            <div style={{
-                textAlign: 'left',
-                height: "25vh",
-                position: 'relative'
-            }}>
+            <div style={{textAlign: 'left', height: "25vh", position: 'relative'}}>
                 <Button
                     href={props.href}
                     variant="text"
@@ -18,7 +18,10 @@ export default function RouterButton(props) {
                         marginLeft: '1em',
                         color: "black",
                 }}>
-                    <h3>{props.title}</h3>
+                    <Stack direction="row" alignItems="center">
+                        <h3>{props.title}</h3>
+                        <KeyboardArrowRightIcon style={{margin: "0.5em"}}/>
+                    </Stack>
                 </Button>
             </div>
         </div>

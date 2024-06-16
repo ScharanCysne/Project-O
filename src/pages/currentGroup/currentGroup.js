@@ -1,18 +1,41 @@
 import React from 'react'
-import Skeleton from '@mui/material/Skeleton';
-import Stack from '@mui/material/Stack';
 
+import Button from '@mui/material/Button';
+import Grid from '@mui/material/Grid';
+
+import HomeIcon from '@mui/icons-material/Home';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+
+import GroupName from './components/groupName';
 
 export default function CurrentGroup() {
     return (
-        <div style={{margin: "1em"}}>
-            <Stack spacing={1}>
-                <Skeleton variant="rectangular" width="100%" height={60} />
-                <Skeleton variant="rectangular" width="100%" height={60} />
-                <Skeleton variant="rounded" width="100%" height={260} />
-                <Skeleton variant="rectangular" width="100%" height={60} />
-                <Skeleton variant="rounded" width="100%" height={260} />
-            </Stack>
+        <div>
+            <div >
+                <GroupName/>
+            </div>
+            <div>
+                <Grid container spacing={4} style={{textAlign: "center", position: "absolute", bottom: "4em"}}>
+                    <Grid item xs={6} textAlign="right">
+                        <Button
+                            style={{backgroundColor: "#355573", marginTop: "2em", height: "4em", wdith: "1.5em"}}
+                            href="/"
+                            variant="contained"
+                        >
+                            <HomeIcon/>
+                        </Button>
+                    </Grid>
+                    <Grid item xs={6} textAlign="left">
+                    <Button
+                            style={{backgroundColor: "#355573", marginTop: "2em", height: "4em", wdith: "1.5em"}}
+                            href="/"
+                            variant="contained"
+                        >
+                            <AttachMoneyIcon/>
+                        </Button>
+                    </Grid>
+                </Grid>
+            </div>
         </div>
     );
 }

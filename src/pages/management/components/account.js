@@ -8,8 +8,8 @@ export default function Account() {
             position: 'relative',
             backgroundColor: "#F2CDCB"
         }}>
-            <h1 style={{position: 'absolute', top: 0, marginLeft: '0.5em'}}>
-                Olá Laura!
+            <h1 style={{position: 'absolute', top: 0, marginLeft: '0.5em', fontSize: "1.8em"}}>
+                Olá, Laura!
             </h1>
             <h4 style={{position: 'absolute', bottom: '1.5em', marginLeft: '1em'}}>
                 Conta
