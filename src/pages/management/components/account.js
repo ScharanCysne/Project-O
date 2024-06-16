@@ -8,15 +8,15 @@ export default function Account() {
             position: 'relative',
             backgroundColor: "#7B6DE8"
         }}>
-            <h1 style={{position: 'absolute', top: 0, marginLeft: '0.8em', fontSize: "1.8em", color: "white"}}>
+            <h1 style={{position: 'absolute', top: 0, marginLeft: '0.8em', fontSize: "1.5em", color: "white"}}>
                 Olá, Laura!
             </h1>
-            <h3 style={{position: 'absolute', bottom: '2em', marginLeft: '1.2em', color: "white"}}>
+            <h4 style={{position: 'absolute', bottom: '2em', marginLeft: '1.2em', color: "white"}}>
                 Conta
-            </h3>
-            <h2 style={{position: 'absolute', bottom: 0, marginLeft: '1em', color: "white"}}>
+            </h4>
+            <h3 style={{position: 'absolute', bottom: 0, marginLeft: '1em', color: "white"}}>
                 R$ 200,00
-            </h2>
+            </h3>
         </div>
     );
 }
