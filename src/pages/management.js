@@ -15,6 +15,7 @@ export default function Management() {
             <Divider style={{borderWidth: '0.5px', borderColor: "black"}}/>
             <div style={{textAlign: 'left', height: "25vh", position: 'relative'}}>
                 <Button
+                    href="/new"
                     variant="text"
                     style={{
                         position: 'absolute',
