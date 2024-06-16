@@ -9,7 +9,7 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 export default function GroupButtons() {
     return (
         <div>
-            <Grid container spacing={4} style={{textAlign: "center"}}>
+            <Grid container spacing={4} style={{textAlign: "center", marginBottom: "2em"}}>
                 <Grid item xs={6} textAlign="right">
                     <Button
                         style={{backgroundColor: "#355573", marginTop: "2em", height: "4em", wdith: "1.5em"}}
