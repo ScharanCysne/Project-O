@@ -1,13 +1,13 @@
-import "@fontsource/roboto/100.css";
+import "@fontsource/roboto";
 import './index.css';
 
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Management from './pages/management';
-import NewGroup from './pages/newGroup';
-import CurrentGroup from "./pages/currentGroup";
+import Management from './pages/management/management';
+import NewGroup from './pages/newGroup/newGroup';
+import CurrentGroup from "./pages/currentGroup/currentGroup";
 
 const router = createBrowserRouter([
     {
