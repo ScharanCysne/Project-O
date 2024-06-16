@@ -12,7 +12,7 @@ export default function GroupName() {
     ]);
 
     return (
-        <div style={{textAlign: 'center', height: "25vh", position: 'relative', backgroundColor: "#F49FCD"}}>
+        <div style={{textAlign: 'center', height: "25vh", position: 'relative', backgroundColor: "#7B6DE8"}}>
             <h2
                 style={{
                     position: 'absolute',
