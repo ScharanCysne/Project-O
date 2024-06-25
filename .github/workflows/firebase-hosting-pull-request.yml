@@ -22,3 +22,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROJECT_O_E93Y28 }}'
           projectId: project-o-e93y28
+          entrypoint: frontend
