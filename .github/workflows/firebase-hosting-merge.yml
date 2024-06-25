@@ -12,14 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Change directory to Frontend
-        run: cd frontend
-
       - name: Configure npm to accept legacy dependencies
         run: npm config set legacy-peer-deps true
 
       - name: Build Frontend project
-        run: npm install && npm run build
+        run: cd frontend && npm install && npm run build
 
       - name: Deploy Frontend to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
