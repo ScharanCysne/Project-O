@@ -19,7 +19,7 @@ jobs:
         run: npm config set legacy-peer-deps true
 
       - name: Build Frontend project
-        run: npm ci && npm run build
+        run: npm install && npm run build
 
       - name: Deploy Frontend to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
