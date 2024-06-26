@@ -1,3 +1,11 @@
+/**
+ * File: inviteMembers.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for inviting new members to group.
+ */
+
 import React, { useState } from 'react'
 
 import Grid from '@mui/material/Grid';

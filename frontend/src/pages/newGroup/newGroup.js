@@ -1,3 +1,11 @@
+/**
+ * File: newGroup.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for creation of new groups.
+ */
+
 import React, { useState } from 'react'
 
 import { Button } from '@mui/material';

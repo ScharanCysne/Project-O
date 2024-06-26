@@ -1,3 +1,11 @@
+/**
+ * File: routerButton.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for single router button for App's functionalities.
+ */
+
 import React from 'react'
 
 import Button from '@mui/material/Button';

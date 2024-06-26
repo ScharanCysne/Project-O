@@ -1,3 +1,11 @@
+/**
+ * File: groupName.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for group's header and name.
+ */
+
 import React from 'react'
 
 import friends from "./friends.png"

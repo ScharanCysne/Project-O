@@ -1,3 +1,11 @@
+/**
+ * File: groupButtons.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for service buttons in current group.
+ */
+
 import React from 'react'
 
 import Button from '@mui/material/Button';

@@ -1,3 +1,11 @@
+/**
+ * File: groupAmount.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for display of group value amount.
+ */
+
 import React from 'react'
 
 import Input from '@mui/material/Input';

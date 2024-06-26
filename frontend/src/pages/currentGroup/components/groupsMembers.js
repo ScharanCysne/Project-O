@@ -1,3 +1,11 @@
+/**
+ * File: groupMembers.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for list of members in the group and their current order.
+ */
+
 import React, { useState } from 'react'
 
 import Member from './member';

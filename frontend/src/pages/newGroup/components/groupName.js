@@ -1,3 +1,11 @@
+/**
+ * File: groupName.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for display of group name.
+ */
+
 import React from 'react'
 
 export default function GroupName() {

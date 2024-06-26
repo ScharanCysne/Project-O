@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/**
+ * File: index.css
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Main style-sheet for App.
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
   margin: 0 !important;

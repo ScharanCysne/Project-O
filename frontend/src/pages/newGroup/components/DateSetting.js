@@ -1,3 +1,11 @@
+/**
+ * File: DateSetting.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for setting date picker.
+ */
+
 import React, { useState } from 'react'
 import dayjs from 'dayjs';
 import TextField from '@mui/material/TextField';

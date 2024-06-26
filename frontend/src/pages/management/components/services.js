@@ -1,3 +1,11 @@
+/**
+ * File: services.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for widgets with App's secondary services.
+ */
+
 import React from 'react'
 
 import { Grid } from '@mui/material';

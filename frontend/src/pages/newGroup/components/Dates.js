@@ -1,3 +1,11 @@
+/**
+ * File: Dates.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for list of date picker objects.
+ */
+
 import React from 'react'
 
 import { Divider } from '@mui/material';

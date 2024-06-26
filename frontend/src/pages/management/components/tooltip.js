@@ -1,3 +1,11 @@
+/**
+ * File: tooltip.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for tooltips objects on top right.
+ */
+
 import React from 'react';
 
 import IconButton from '@mui/material/IconButton';

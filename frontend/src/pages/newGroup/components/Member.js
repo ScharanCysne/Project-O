@@ -1,3 +1,11 @@
+/**
+ * File: Member.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for member object in list.
+ */
+
 import * as React from 'react';
 import Paper from '@mui/material/Paper';
 import Avatar from '@mui/material/Avatar';

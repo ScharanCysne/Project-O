@@ -1,3 +1,11 @@
+/**
+ * File: index.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Main point of entry for App.
+ */
+
 import './index.css';
 
 import React from 'react';

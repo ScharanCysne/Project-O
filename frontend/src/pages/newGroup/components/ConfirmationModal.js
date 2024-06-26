@@ -1,3 +1,12 @@
+/**
+ * File: ConfirmationModal.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for display of confirmation notice and receipt of
+ * group creation.
+ */
+
 import React from 'react'
 
 import { Button, Divider } from '@mui/material';

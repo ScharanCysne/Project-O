@@ -1,3 +1,11 @@
+/**
+ * File: account.js
+ * Author: Nicholas Scharan Cysne
+ * Date: 06/20/2024
+ *
+ * Description: Component for header with account details.
+ */
+
 import React from 'react'
 
 export default function Account() {
