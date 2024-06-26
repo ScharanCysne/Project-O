@@ -11,11 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm config set legacy-peer-deps true
-      - run: npm ci && npm run build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+
+      - name: Configure npm to accept legacy dependencies
+        run: npm config set legacy-peer-deps true
+
+      - name: Build Frontend project
+        run: cd frontend && npm install && npm run build
+
+      - name: Deploy Frontend to Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROJECT_O_E93Y28 }}'
           channelId: live
           projectId: project-o-e93y28
+          entrypoint: frontend
